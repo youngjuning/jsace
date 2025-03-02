@@ -10,7 +10,8 @@
     "prebuild": "rimraf dist",
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint --ext .js,.ts src"
+    "lint": "eslint --ext .js,.ts src",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "leetcode",
