@@ -1,0 +1,35 @@
+{
+  "name": "jsace",
+  "version": "0.0.1",
+  "description": "算法和数据结构的js实现",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint --ext .js,.ts src"
+  },
+  "keywords": [
+    "leetcode",
+    "算法",
+    "数据结构"
+  ],
+  "author": "youngjuning",
+  "license": "ISC",
+  "packageManager": "pnpm@10.0.0",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@youngjuning/eslint-config": "^0.3.4",
+    "@youngjuning/prettier-config": "^2.0.0",
+    "eslint": "^9.21.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.2",
+    "rimraf": "^6.0.1",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
