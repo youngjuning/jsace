@@ -14,9 +14,9 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "leetcode",
-    "算法",
-    "数据结构"
+    "algorithm",
+    "data structure",
+    "linked list"
   ],
   "author": "youngjuning",
   "license": "ISC",
