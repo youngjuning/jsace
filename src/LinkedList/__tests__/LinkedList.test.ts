@@ -32,4 +32,24 @@ describe('LinkedList', () => {
     expect(linkedList.getElementAt(1)?.element).toEqual(2);
     expect(linkedList.getElementAt(2)?.element).toEqual(3);
   });
+
+  test('should return true when list is empty', () => {
+    expect(linkedList.isEmpty()).toBe(true);
+  });
+
+  test('should return false when list is not empty', () => {
+    linkedList.push(1);
+    expect(linkedList.isEmpty()).toBe(false);
+  });
+
+  test('should return 0 when the list is empty', () => {
+    expect(linkedList.size()).toBe(0);
+  });
+
+  test('should return the correct size after adding elements', () => {
+    linkedList.push(1);
+    linkedList.push(2);
+    linkedList.push(3);
+    expect(linkedList.size()).toBe(3);
+  });
 });
