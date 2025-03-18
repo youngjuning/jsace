@@ -8,6 +8,16 @@ pnpm add jsace
 
 ## Usage
 
+### Search Algorithms
+
+```js
+import { binarySearch } from 'jsace';
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const index = binarySearch(arr, 5);
+```
+
+### LinkedList
+
 ```js
 import { LinkedList } from 'jsace';
 
