@@ -1,2 +1,2 @@
-export * from './LinkedList';
-export * from './search/binarySearch';
+export * from './LinkedList/LinkedList';
+export * from './search';
